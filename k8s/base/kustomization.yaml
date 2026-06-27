@@ -17,17 +17,17 @@ labels:
   - includeSelectors: true
     includeTemplates: true
     pairs:
-      app.kubernetes.io/name: __SERVICE_NAME__
-      app.kubernetes.io/part-of: __TEAM_NAME__
+      app.kubernetes.io/name: receipt-api
+      app.kubernetes.io/part-of: Commerce
       app.kubernetes.io/managed-by: ohanyere-idp
       platform.ohanyere.io/template: template-node-api
-      finops.ohanyere.io/cost-center: __COST_CENTER__
+      finops.ohanyere.io/cost-center: commerce
   - includeSelectors: false
     includeTemplates: true
     pairs:
-      platform.io/team: __TEAM_NAME__
-      platform.io/cost-center: __COST_CENTER__
+      platform.io/team: Commerce
+      platform.io/cost-center: commerce
 images:
-  - name: kuberpull/__SERVICE_NAME__
-    newName: kuberpull/__SERVICE_NAME__
+  - name: kuberpull/receipt-api
+    newName: kuberpull/receipt-api
     newTag: dev
