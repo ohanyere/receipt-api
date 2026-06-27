@@ -1,4 +1,4 @@
-service: __SERVICE_NAME__
+service: receipt-api
 runtime:
   - nodejs
   - express
