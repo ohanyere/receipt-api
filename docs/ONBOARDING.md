@@ -11,11 +11,11 @@
 
 ## Required Metadata
 
-- `__SERVICE_NAME__`
-- `__TEAM_NAME__`
-- `__OWNER_EMAIL__`
-- `__ENVIRONMENT__`
-- `__COST_CENTER__`
+- `receipt-api`
+- `Commerce`
+- `mooref068@gmail.com`
+- `dev`
+- `commerce`
 
 ## Platform Standards
 
